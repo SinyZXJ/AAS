@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['ActuatorArm', 'ActuatorBase', 'ArmElectro', 'HDDCase', 'Platter', 'Screw']
+
+roboflow:
+  workspace: fypnusri
+  project: hdd_detect_1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fypnusri/hdd_detect_1/dataset/1
